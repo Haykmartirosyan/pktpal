@@ -1,0 +1,12 @@
+.notFoundSizeNumber {
+  font-size: 200px
+}
+
+@media(max-width: 576px) {
+  .notFoundSizeNumber {
+    font-size: 130px
+  }
+  .notFoundSizeText {
+    font-size: 20px
+  }
+}

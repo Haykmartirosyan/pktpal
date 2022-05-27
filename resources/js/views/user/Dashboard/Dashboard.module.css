@@ -1,0 +1,53 @@
+.dashboardDeviceImg {
+    width: 371px;
+}
+
+/*.dashboardNoDevicesText {*/
+/*    font-size: 50px;*/
+/*}*/
+
+
+.noDevices {
+    background-image: url("/images/Mask_Group.png") !important;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.blueBorder {
+    border: 1px solid #023DB5 !important;
+}
+
+th:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+th .withoutRadius {
+    border-radius: 0;
+}
+
+.devicesTable {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.recsMode div {
+    display: block !important;
+}
+
+
+.tooLong {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 576px) {
+    .bg-none {
+        background-color: transparent;
+    }
+
+    .device-box {
+        padding: 30px 10px;
+        border-radius: 8px;
+    }
+}

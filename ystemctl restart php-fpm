@@ -1,0 +1,68 @@
+[0;1;32m●[0m nginx.service - The nginx HTTP and reverse proxy server
+     Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; vendor preset: disabled)
+    Drop-In: /usr/lib/systemd/system/nginx.service.d
+             └─php-fpm.conf
+     Active: [0;1;32mactive (running)[0m since Mon 2021-06-21 12:20:42 UTC; 3min 35s ago
+    Process: 473251 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)
+    Process: 473253 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)
+    Process: 473256 ExecStart=/usr/sbin/nginx (code=exited, status=0/SUCCESS)
+   Main PID: 473258 (nginx)
+      Tasks: 50 (limit: 115247)
+     Memory: 1.9G
+        CPU: 1.848s
+     CGroup: /system.slice/nginx.service
+             ├─473258 nginx: master process /usr/sbin/nginx
+             ├─473259 nginx: worker process
+             ├─473260 nginx: worker process
+             ├─473261 nginx: worker process
+             ├─473262 nginx: worker process
+             ├─473263 nginx: worker process
+             ├─473264 nginx: worker process
+             ├─473265 nginx: worker process
+             ├─473266 nginx: worker process
+             ├─473267 nginx: worker process
+             ├─473268 nginx: worker process
+             ├─473269 nginx: worker process
+             ├─473270 nginx: worker process
+             ├─473271 nginx: worker process
+             ├─473272 nginx: worker process
+             ├─473273 nginx: worker process
+             ├─473274 nginx: worker process
+             ├─473275 nginx: worker process
+             ├─473276 nginx: worker process
+             ├─473277 nginx: worker process
+             ├─473278 nginx: worker process
+             ├─473279 nginx: worker process
+             ├─473280 nginx: worker process
+             ├─473281 nginx: worker process
+             ├─473282 nginx: worker process
+             ├─473283 nginx: worker process
+             ├─473284 nginx: worker process
+             ├─473285 nginx: worker process
+             ├─473286 nginx: worker process
+             ├─473287 nginx: worker process
+             ├─473288 nginx: worker process
+             ├─473289 nginx: worker process
+             ├─473290 nginx: worker process
+             ├─473291 nginx: worker process
+             ├─473292 nginx: worker process
+             ├─473293 nginx: worker process
+             ├─473294 nginx: worker process
+             ├─473295 nginx: worker process
+             ├─473296 nginx: worker process
+             ├─473297 nginx: worker process
+             ├─473298 nginx: worker process
+             ├─473299 nginx: worker process
+             ├─473300 nginx: worker process
+             ├─473301 nginx: worker process
+             ├─473302 nginx: worker process
+             ├─473303 nginx: worker process
+             ├─473304 nginx: worker process
+             ├─473305 nginx: worker process
+             ├─473306 nginx: worker process
+             └─473307 nginx: cache manager process
+
+Jun 21 12:20:42 goofy12 systemd[1]: Starting The nginx HTTP and reverse proxy server...
+Jun 21 12:20:42 goofy12 nginx[473253]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+Jun 21 12:20:42 goofy12 nginx[473253]: nginx: configuration file /etc/nginx/nginx.conf test is successful
+Jun 21 12:20:42 goofy12 systemd[1]: Started The nginx HTTP and reverse proxy server.

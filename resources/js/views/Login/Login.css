@@ -1,0 +1,36 @@
+.dashboard-image {
+    margin-left: 10%;
+}
+
+.dashboard-container {
+    margin-top: 50px;
+}
+
+.input-group-item {
+    margin-bottom: 20px
+}
+
+.login-inputs {
+    padding: 0 !important;
+}
+
+.login-inputs input {
+    background-color: #F1F2F4;
+    padding: 20px;
+    height: 50px;
+    color: black !important;
+}
+
+.login-inputs span {
+    background-color: #F1F2F4;
+}
+
+.login-info {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 50px;
+    max-width: 430px;
+    letter-spacing: 0.012em;
+    font-feature-settings: 'cpsp' on;
+    margin-top: 100px;
+}

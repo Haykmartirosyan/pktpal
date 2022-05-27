@@ -1,0 +1,142 @@
+.wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.wrapper.toggled {
+    padding-left: 250px;
+}
+
+.sidebarWrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    overflow-y: unset;
+}
+
+.wrapper.toggled .sidebarWrapper {
+    width: 250px;
+}
+
+.page-contentWrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+.wrapper.toggled .pageContentWrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+
+.sidebarNav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebarNav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebarNav li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.sidebarNav > .sidebarBrand {
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebarNav > .sidebarBrand a {
+    color: black;
+}
+
+.searchBlock {
+    padding-right: 13%;
+}
+
+.hasSearch .searchFormControl {
+    padding-left: 2.375rem;
+    border: 1px solid;
+    padding-right: 15%;
+
+}
+
+.hasSearch .formControlFeedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: black;
+}
+
+
+.notificationsBlock {
+    width: 400px;
+    max-height: 350px;
+    overflow-y: scroll;
+}
+
+.notificationsBlock::-webkit-scrollbar {
+    width: 6px;
+}
+
+.notificationsBlock::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0 grey;
+    border-radius: 10px;
+}
+
+.notificationsBlock::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        padding-left: 250px;
+    }
+
+    .wrapper.toggled {
+        padding-left: 60px;
+    }
+
+    .sidebarWrapper {
+        width: 255px;
+    }
+
+    .wrapper.toggled .sidebarWrapper {
+        width: 60px;
+    }
+
+    .pageContentWrapper {
+        position: relative;
+    }
+
+    .wrapper.toggled .pageContentWrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}

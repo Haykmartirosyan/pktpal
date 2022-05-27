@@ -1,0 +1,28 @@
+@import "../../../../sass/variables";
+
+.popup {
+  background-color: $pkt-dark-blue;
+  position: fixed;
+  bottom: 65px;
+  padding: 20px;
+  width: 90%;
+  z-index: 999;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  .caret {
+    position: absolute;
+    color: $pkt-dark-blue;
+    font-size: 55px;
+    top: 100%;
+    line-height: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .times {
+    position: absolute;
+    right: 10px;
+    top: 10px
+  }
+}

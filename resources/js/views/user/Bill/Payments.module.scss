@@ -1,0 +1,259 @@
+.bgTransparent {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.paddingBox {
+  padding: 22px 30px;
+}
+
+.warningItem::after {
+  position: absolute;
+  right: 20px;
+}
+
+.textMedia {
+  max-width: 350px;
+}
+
+.changeBackground:hover {
+  background-color: #F1F2F4;
+}
+
+.notificationBlock {
+  min-width: 400px;
+}
+
+.z1000 {
+  z-index: 1000;
+}
+
+.serviceLogoSearch {
+  max-width: 40px;
+}
+
+.serviceLogo {
+  max-width: 110px;
+}
+
+.serviceDiv {
+  height: 200px;
+  width: 200px;
+}
+
+.favoriteDiv {
+  height: 115px;
+}
+
+.upcomingDiv {
+  height: 235px;
+}
+
+.recentDiv {
+  height: 150px;
+}
+
+.serviceLogoModal {
+  max-width: 150px;
+}
+
+.filterIcon {
+  vertical-align: middle;
+}
+
+.blueBorder {
+  border: 1px solid #023DB5 !important;
+}
+
+.devicesTable {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+.detailDiv {
+  width: 75%;
+}
+
+@media (max-width: 768px) {
+  .upcomingDiv {
+    height: 250px;
+  }
+
+  .upcomingImage {
+    max-width: 50px;
+  }
+
+  .favoriteDiv {
+    height: 125px;
+  }
+
+  .recentDiv {
+    height: 210px;
+  }
+
+  .serviceDiv {
+    width: 100%;
+  }
+
+  .detailDiv {
+    width: 100%;
+  }
+
+  .calendarBox {
+    right: 0;
+    z-index: 2;
+  }
+}
+
+.calendarBox {
+  z-index: 2;
+}
+
+.dropdownStyle {
+  max-height: 400px;
+  overflow-y: scroll;
+
+}
+
+.dropdownStyle::-webkit-scrollbar {
+  width: 5px;
+}
+
+.dropdownStyle::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0 grey;
+  border-radius: 10px;
+}
+
+.dropdownStyle::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+.removeSearch {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #6c757d;
+}
+
+@media (max-width: 1299px) {
+  .textMedia {
+    max-width: 290px;
+  }
+  .dropdownStyle {
+    max-height: 400px;
+    overflow: scroll;
+  }
+
+}
+
+@media (max-width: 1199px) {
+  .textMedia {
+    max-width: 220px;
+  }
+  .dropdownStyle {
+    max-height: 400px;
+    overflow: scroll;
+  }
+}
+
+@media (max-width: 991px) {
+  .textMedia {
+    max-width: 450px;
+  }
+  .dropdownStyle {
+    max-height: 400px;
+    overflow: scroll;
+  }
+}
+
+@media (max-width: 767px) {
+  .textMedia {
+    max-width: 400px;
+  }
+  .dropdownStyle {
+    max-height: 400px;
+    overflow: scroll;
+    max-width: 100%;
+  }
+  .selectDiv {
+    width: 100% !important;
+  }
+  .wrapDiv {
+    flex-wrap: wrap;
+  }
+  .removeSearch {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: #6c757d;
+    padding: 0;
+  }
+
+}
+
+
+@media (max-width: 540px) {
+  .dropdownStyle {
+    max-height: 400px;
+    overflow: scroll;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .dropdownStyle {
+    max-height: 350px;
+    overflow: scroll;
+  }
+}
+
+.noDevices {
+  background-image: url("/images/Mask_Group.png") !important;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.dashboardDeviceImg {
+  width: 371px;
+}
+
+.divHeight {
+  height: 50px;
+}
+
+.mewFormControl {
+  padding: 0 13px;
+  font-size: 16px;
+  line-height: 1;
+  border: 0;
+  border-radius: 8px;
+  -webkit-appearance: none;
+}
+
+.chevronDown {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+
+  select {
+    position: relative;
+    z-index: 2;
+    background-color: transparent !important;
+  }
+
+  &:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f078";
+    position: absolute;
+    right: 13px;
+    z-index: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+}
+
+.notificationDiv {
+  width: 170% !important;
+}
